@@ -1,0 +1,71 @@
+.app{
+  width: 100vw;
+}
+
+
+.cardContainer{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:3vh;
+}
+
+
+.nurseInfo{
+  display:flex;
+  justify-content: center;
+  font-size: 2rem;
+  gap:15vw;
+  margin-top:5vh;
+  padding-left:30vw;
+  font-family: "Noto Serif HK";
+}
+
+.personInfo{
+  display:flex;
+  gap: 0.2vw;
+  font-weight:200;
+}
+
+
+.nurseInfo > p, .personInfo > p{
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-top: 8.5vh;
+}
+
+
+.detailContainer{
+  display: flex;
+  gap: 10vw;
+  font-size: 1.2rem;
+}
+
+.salaryInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+
+.insuranceInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+
+.leaveInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+
+.paymentInfo{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
